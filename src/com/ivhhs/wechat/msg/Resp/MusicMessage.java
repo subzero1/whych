@@ -1,0 +1,20 @@
+package com.ivhhs.wechat.msg.Resp;
+
+/**
+ * “Ù¿÷œ˚œ¢
+ * 
+ * @author ivhhs
+ * @date 2014.10.16
+ */
+public class MusicMessage extends BaseMessage {
+	// “Ù¿÷
+	private Music music;
+
+	public Music getMusic() {
+		return music;
+	}
+
+	public void setMusic(Music music) {
+		this.music = music;
+	}
+}
