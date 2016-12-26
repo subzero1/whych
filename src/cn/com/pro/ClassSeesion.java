@@ -9,7 +9,7 @@ public class ClassSeesion  {
 	public void moth(HttpServletRequest request)//作为参数传进来
 	{
 	HttpSession session = request.getSession();
-
+  
 	//读取session
 	session.getAttribute("name");
 	//保存session
